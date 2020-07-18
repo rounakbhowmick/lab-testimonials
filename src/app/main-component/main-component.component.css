@@ -1,0 +1,57 @@
+/* .image {
+  float: right;
+  height: 500px;
+  width: 500px;
+  padding-right: 5%;
+}
+
+.home {
+  padding-top: 2em;
+  padding-left: 13em;
+  padding-right: 13em;
+  height: 20em;
+}
+
+h1 {
+  font-size: 3em;
+  color: orangered;
+}
+
+.hash {
+  color: orangered;
+} */
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 5rem 7rem;
+}
+
+.notes {
+  width: 20rem;
+  height: 15rem;
+}
+
+img {
+  width: 30rem;
+  height: 30rem;
+}
+
+h1 {
+  color: orangered;
+  line-height: 3rem;
+  letter-spacing: 0.1rem;
+  padding-bottom: 1rem;
+}
+
+p {
+  line-height: 1.3rem;
+}
+
+.bold {
+  padding: 2rem 0
+}
+
+.hashvalues {
+  color: orangered;
+}

@@ -1,0 +1,14 @@
+div {
+  display: flex;
+  justify-content: space-between;
+  PADDING: 1rem 5REM;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: auto;
+
+}
+
+div>img {
+  width: 9rem;
+  height: 2rem;
+
+}

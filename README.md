@@ -1,74 +1,27 @@
-![Image description](https://i1.faceprep.in/ProGrad/face-logo-resized.png)
+# Testimonials
 
-# ProGrad Lab | Testimonials
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.1.
 
-## Learning Goals
+## Development server
 
-After this lesson, you will be able to:
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-- Create a static Angular application with Angular CLI.
-- Build an Angular application with one component.
+## Code scaffolding
 
-## Requirements
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-- Fork this repo.
-- Clone this repo.
+## Build
 
-## Submission
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-Upon completion, run the following commands:
+## Running unit tests
 
-```bash
-$ git add .
-$ git commit -m "done"
-$ git push origin master
-```
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-Navigate to your repo and create a pull request from your master branch to the original repository's master branch.
+## Running end-to-end tests
 
-In the pull request name, add your Prograd id, name, and last name separated by a dash "-".
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Deliverables
+## Further help
 
-You need to generate the starter code and fill it with the necessary code to satisfy the requirements described below.
-
-## Introduction
-
-I hope everyone is comfortable with the angular. The goal here is to work on a small projects where you can practice the concepts we've learned thus far.
-
-## Starter Code
-
-To generate the starter code, follow the steps given below
-
-- To create a new application,
-    - Open your ubuntu or cmd terminal and execute the following command
-      - ```ng new app-name```
-      - for example, ng new super-wars
-    - To create a new component, execute the command 
-      - ``` ng generate component component-name```
-      - example, ng generate component contacts
-      
-## How to run
-
-- To run the project go to your ubuntu terminal or VScode editor
-    - open the ubuntu or cmd terminal or inside the vscode editor
-    - run the command following command
-    - ```ng serve --open or ng serve -o```
-    
-## PROGRESSION #1: Testimonials
-
-In the project, we are going to create a testimonial with your experience. We are going to create two different components:
-
-- The `MainComponent` component will contain the article image, composed of a `title`, an `image`, and a `description`.
-- The `TestimonialComponent` component, that will contain several testimonials (feel free to add as many testimonial as you want).
-
-At the bottom of the testimonial, we will add a testimonial form to add some reality to our article. We can't have testimonial without a form! (Don't worry, it doesn't need to work.  We will get to that later).
-
-The first thing you will have to do is to generate the project with `Angular CLI`.
-
-Expected Output
-![Testimonials](https://i1.faceprep.in/ProGrad/typescript-hear-from-prograds.svg)
-
-
-Happy Coding ProGrad ❤️
-
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
